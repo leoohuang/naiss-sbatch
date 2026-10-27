@@ -1,0 +1,20 @@
+# Slurm outputs
+*.out
+*.err
+slurm-*.out
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Model checkpoints
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Secrets
+.env
+*.pem
